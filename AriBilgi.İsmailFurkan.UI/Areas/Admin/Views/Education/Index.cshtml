@@ -1,0 +1,94 @@
+﻿
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
+}
+
+<h1 class="mt-4">Eğitim</h1>
+<div class="row mb-2">
+    <div class="col-sm-6">
+    </div>
+    <div class="col-sm-6">
+        <ol class="breadcrumb float-sm-right">
+           
+            <li class="breadcrumb-item active"><a href="/Admin/Education/Index">Eğitim</a></li>
+
+        </ol>
+
+
+    </div>
+</div>
+<div class="container-fluid" ng-app="EducationApp" ng-controller="EducationController">
+    <div class="row">
+        <div class="col-12">
+            <div class="card">
+                <div class="card-header">
+                    <div class="float-right">
+                        <a href="/Admin/Education/Add" class="btn btn-primary" style=" right: 20px;
+        bottom: 20px;">Yeni Ekle</a>
+                    </div>
+                </div>
+                <!-- /.card-header -->
+                <div class="card-body">
+                    <table id="example2" class="table table-bordered table-hover">
+                        <thead>
+                            <tr>
+                                <th>Id</th>
+                                <th>Başlık</th>
+                                <th>Lise</th>
+                                <th>Lise Altyazı</th>
+                                <th>Üniversite</th>
+                                <th>Üniversite Altyazı</th>
+                                <th>Lise Resim</th>
+                                <th>Üniversite Resim</th>
+                                <th></th>
+                            </tr>
+                        </thead>
+
+                        <tbody>
+                            <tr ng-repeat="education in EducationList">
+                                <td>
+                                    {{education.id}}
+                                </td>
+                                <td>
+                                    {{education.title}}
+                                </td>
+                                <td>
+                                    {{education.schoolname1}}
+                                </td>
+                                <td>
+                                    {{education.schoolsubtitle1}}
+                                </td>
+                                <td>
+                                    {{education.schoolname2}}
+                                </td>
+                                <td>
+                                    {{education.schoolsubtitle2}}
+                                </td>
+                                <td>
+                                    {{education.image}}
+                                </td>
+                                <td>
+                                    {{education.image1}}
+                                </td>
+                                <td>
+                                    <a ng-click="EducationDelete(education.id)" class="btn-sm btn-danger">Sil</a>
+                                    <a href="/Admin/Education/Edit?Id={{education.id}}" class="btn-sm btn-warning">Düzenle</a>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <!-- /.card-body -->
+            </div>
+            <!-- /.card -->
+            <!-- /.card -->
+        </div>
+        <!-- /.col -->
+    </div>
+    <!-- /.row -->
+</div>
+
+@section Scripts{
+    <script src="~/Admin/pages/education.js"></script>
+}

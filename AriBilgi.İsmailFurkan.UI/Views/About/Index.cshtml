@@ -1,0 +1,41 @@
+﻿
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div ng-controller="AboutController">
+
+    <div class="center">
+       
+        <div ng-repeat="about in AboutList">
+            <div class="avatar">
+                <img src="{{about.image}}" />
+
+
+
+            </div>
+            <div class="content">
+                <h1>{{about.name}}</h1>
+                <h2>{{about.job}}</h2>
+                <p>
+                    {{about.explain}}
+                </p>
+                <h3>{{about.social}}</h3>
+            </div>
+        </div>
+        <div class="social">
+            <a href="https://www.linkedin.com/in/ismail-furkan-g%C3%B6n%C3%BCl-983572245/"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://github.com/ismailfurkangonul"><i class="fa-brands fa-github"></i></a>
+            <a href="mailto:ismailfurkangonul2@gmail.com"><i class="fa-brands fa-envelope"></i></a>
+           
+                        
+
+
+        </div>
+
+    </div>
+</div>
+@section Scripts{
+    <script src="/Admin/pages/about.js"></script>
+}

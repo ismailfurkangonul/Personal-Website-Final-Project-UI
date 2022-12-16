@@ -1,0 +1,97 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = AriBilgi.İsmailFurkan.UI
+build_property.RootNamespace = AriBilgi.İsmailFurkan.UI
+build_property.ProjectDir = C:\Users\Nani1\OneDrive\Masaüstü\Software\AriBilgi.İsmailFurkan.UI\AriBilgi.İsmailFurkan.UI\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = true
+build_property.MSBuildProjectDirectory = C:\Users\Nani1\OneDrive\Masaüstü\Software\AriBilgi.İsmailFurkan.UI\AriBilgi.İsmailFurkan.UI
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/Nani1/OneDrive/Masaüstü/Software/AriBilgi.İsmailFurkan.UI/AriBilgi.İsmailFurkan.UI/Areas/Admin/Views/About/Add.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWJvdXRcQWRkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Nani1/OneDrive/Masaüstü/Software/AriBilgi.İsmailFurkan.UI/AriBilgi.İsmailFurkan.UI/Areas/Admin/Views/About/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWJvdXRcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Nani1/OneDrive/Masaüstü/Software/AriBilgi.İsmailFurkan.UI/AriBilgi.İsmailFurkan.UI/Areas/Admin/Views/About/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWJvdXRcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Nani1/OneDrive/Masaüstü/Software/AriBilgi.İsmailFurkan.UI/AriBilgi.İsmailFurkan.UI/Areas/Admin/Views/Certificates/Add.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ2VydGlmaWNhdGVzXEFkZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Nani1/OneDrive/Masaüstü/Software/AriBilgi.İsmailFurkan.UI/AriBilgi.İsmailFurkan.UI/Areas/Admin/Views/Certificates/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ2VydGlmaWNhdGVzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Nani1/OneDrive/Masaüstü/Software/AriBilgi.İsmailFurkan.UI/AriBilgi.İsmailFurkan.UI/Areas/Admin/Views/Certificates/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ2VydGlmaWNhdGVzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Nani1/OneDrive/Masaüstü/Software/AriBilgi.İsmailFurkan.UI/AriBilgi.İsmailFurkan.UI/Areas/Admin/Views/Education/Add.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcRWR1Y2F0aW9uXEFkZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Nani1/OneDrive/Masaüstü/Software/AriBilgi.İsmailFurkan.UI/AriBilgi.İsmailFurkan.UI/Areas/Admin/Views/Education/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcRWR1Y2F0aW9uXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Nani1/OneDrive/Masaüstü/Software/AriBilgi.İsmailFurkan.UI/AriBilgi.İsmailFurkan.UI/Areas/Admin/Views/Education/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcRWR1Y2F0aW9uXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Nani1/OneDrive/Masaüstü/Software/AriBilgi.İsmailFurkan.UI/AriBilgi.İsmailFurkan.UI/Areas/Admin/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Nani1/OneDrive/Masaüstü/Software/AriBilgi.İsmailFurkan.UI/AriBilgi.İsmailFurkan.UI/Views/About/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWJvdXRcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Nani1/OneDrive/Masaüstü/Software/AriBilgi.İsmailFurkan.UI/AriBilgi.İsmailFurkan.UI/Views/Certificates/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2VydGlmaWNhdGVzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Nani1/OneDrive/Masaüstü/Software/AriBilgi.İsmailFurkan.UI/AriBilgi.İsmailFurkan.UI/Views/Education/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRWR1Y2F0aW9uXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Nani1/OneDrive/Masaüstü/Software/AriBilgi.İsmailFurkan.UI/AriBilgi.İsmailFurkan.UI/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Nani1/OneDrive/Masaüstü/Software/AriBilgi.İsmailFurkan.UI/AriBilgi.İsmailFurkan.UI/Views/Shared/_EducationLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9FZHVjYXRpb25MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Nani1/OneDrive/Masaüstü/Software/AriBilgi.İsmailFurkan.UI/AriBilgi.İsmailFurkan.UI/Views/Shared/_LayoutCertificate.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXRDZXJ0aWZpY2F0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Nani1/OneDrive/Masaüstü/Software/AriBilgi.İsmailFurkan.UI/AriBilgi.İsmailFurkan.UI/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Nani1/OneDrive/Masaüstü/Software/AriBilgi.İsmailFurkan.UI/AriBilgi.İsmailFurkan.UI/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Nani1/OneDrive/Masaüstü/Software/AriBilgi.İsmailFurkan.UI/AriBilgi.İsmailFurkan.UI/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Nani1/OneDrive/Masaüstü/Software/AriBilgi.İsmailFurkan.UI/AriBilgi.İsmailFurkan.UI/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-twphjgs17a

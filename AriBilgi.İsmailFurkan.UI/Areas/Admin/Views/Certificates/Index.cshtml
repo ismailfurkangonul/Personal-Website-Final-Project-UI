@@ -1,0 +1,95 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    Layout = "/Areas/Admin/Views/Shared/_Layout.cshtml";
+}
+<h1 class="mt-4">Sertifika</h1>
+<div class="row mb-2">
+    <div class="col-sm-6">
+    </div>
+    <div class="col-sm-6">
+        <ol class="breadcrumb float-sm-right">
+          
+            <li class="breadcrumb-item active"><a href="/Admin/Certificates/Index">Sertifika</a></li>
+
+        </ol>
+
+
+    </div>
+</div>
+<div class="container-fluid" ng-app="CertificatesApp" ng-controller="CertificatesController">
+    <div class="row">
+        <div class="col-12">
+            <div class="card">
+                <div class="card-header">
+                    <div class="float-right">
+                        <a href="/Admin/Certificates/Add" class="btn btn-primary" style=" right: 20px;
+        bottom: 20px;">Yeni Ekle</a>
+                    </div>
+                </div>
+                <!-- /.card-header -->
+                <div class="card-body">
+                    <table id="example2" class="table table-bordered table-hover">
+                        <thead>
+                            <tr>
+                                <th>Id</th>
+                                <th>Başlık</th>
+                                <th>Sertifika1</th>
+                                <th>Sertifika2</th>
+                                <th>Sertifika3</th>
+                                <th>Sertifika4</th>
+                                <th>Sertifika5</th>
+                                <th>Sertifika6</th>
+                                <th></th>
+                            </tr>
+                        </thead>
+
+                        <tbody>
+                            <tr ng-repeat="certificates in CertificatesList">
+                                <td>
+                                    {{certificates.id}}
+                                </td>
+                                <td>
+                                    {{certificates.title}}
+                                </td>
+                                <td>
+                                    {{certificates.certificate1}}
+                                </td>
+                                <td>
+                                    {{certificates.certificate2}}
+                                </td>
+                                <td>
+                                    {{certificates.certificate3}}
+                                </td>
+                                <td>
+                                    {{certificates.certificate4}}
+                                </td>
+                                <td>
+                                    {{certificates.certificate5}}
+                                </td>
+                                <td>
+                                    {{certificates.certificate6}}
+                                </td>
+                                
+                                <td>
+                                    <a ng-click="CertificatesDelete(certificates.id)" class="btn-sm btn-danger">Sil</a>
+                                    <a href="/Admin/Certificates/Edit?Id={{certificates.id}}" class="btn-sm btn-warning">Düzenle</a>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <!-- /.card-body -->
+            </div>
+            <!-- /.card -->
+            <!-- /.card -->
+        </div>
+        <!-- /.col -->
+    </div>
+    <!-- /.row -->
+</div>
+
+@section Scripts{
+    <script src="~/Admin/pages/certificates.js"></script>
+}
